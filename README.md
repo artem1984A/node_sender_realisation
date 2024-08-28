@@ -1,5 +1,6 @@
 # node_sender_realisation
 message.js is a Node.js module designed to handle message processing, sending emails, and writing messages to a file. The module uses the Mailtrap API for sending emails and the child_process module to handle file writing through a spawned child process. The primary goal of this module is to provide an organized way to manage user-submitted messages by sending a confirmation email and storing the message content in a file, which implemented be creation class Message and keeping all functionality in this class, through different methods.
+
 This class Message represents «factory» and «builder» creational design patterns for Node.js developing.
 
 Features
