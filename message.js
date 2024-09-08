@@ -30,7 +30,7 @@ class Message {
         return; // Exit the method if email is empty
       }
 
-    const TOKEN = "da95d54c576369870c39b46f762ba713";
+    const TOKEN = "***";
     const ENDPOINT = "https://send.api.mailtrap.io/";
 
     const client = new MailtrapClient({ endpoint: ENDPOINT, token: TOKEN });
